@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+  }
+.parallax{
+    height: 100%;
+    /*這裡是這個特效的重點*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_1 {
+    background-image: url("https://images.unsplash.com/photo-1568742802414-2918e2bdebe8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80")
+}
+.img_2 {
+    background-image: url("https://images.unsplash.com/photo-1568821862055-66aff7af7ecb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80")
+}
+.img_3 {
+    background-image: url("https://images.unsplash.com/photo-1568819160804-0be646ab7623?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2002&q=80")
+}
+
+.text {
+    height: 990px;
+    background-color: bisque;
+    font-size: 36px;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
